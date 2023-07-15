@@ -5,21 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-    <link href="https://fonts.cdnfonts.com/css/century-gothic-paneuropean" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/arial" rel="stylesheet">
-    <link rel="icon" type="image/png" href="/src/img/favicon.png">
+
+
     <link rel="stylesheet" href="./output.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Buscar Proyecto</title>
+    <title>Buscar proyecto</title>
+
 </head>
 
 <body>
-
-
-
     <aside id="logo-sidebar"
         class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar">
@@ -81,8 +74,7 @@
                 <li>
                     <a href="#"
                         class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-[#E2231A] dark:hover:bg-gray-100">
-                        <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
+                        <svg height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                             <g id="SVGRepo_iconCarrier">
@@ -101,43 +93,29 @@
                         <span class="ml-3 text-[#ffffff]">Agregar imágenes</span>
                     </a>
                 </li>
+        </div>
 
-                <!--Salir-->
-                <li>
-                    <a href="#"
-                        class=" object-none object-left flex items-center p-2  text-gray-900 rounded-lg dark:text-white ">
-                        <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <path d="M21 12L13 12" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                </path>
-                                <path
-                                    d="M18 15L20.913 12.087V12.087C20.961 12.039 20.961 11.961 20.913 11.913V11.913L18 9"
-                                    stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                </path>
-                                <path
-                                    d="M16 5V4.5V4.5C16 3.67157 15.3284 3 14.5 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H14.5C15.3284 21 16 20.3284 16 19.5V19.5V19"
-                                    stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                </path>
-                            </g>
-                        </svg>
-                        <span class="ml-3 text-[#ffffff]">Salir</span>
-                    </a>
-                </li>
+
+
+        <!-- Salir -->
+        <div class="absolute bottom-0 left-0 p-4 text-gray-900 bg-Azul dark:bg-Rojo">
+            <a href="#"
+                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-[#E2231A] dark:hover:bg-gray-100">
+                <svg aria-hidden="true" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                </svg>
+                <span class="ml-3 text-white">Salir</span>
+            </a>
         </div>
     </aside>
-    <!--Fin de sidebar-->
+    <!--Salir-->
 
 
     <div class=" w-full flex justify-center  ">
         <div class="mx-56 rounded-[22px] bg-white shadow-xl w-full w-screen-md">
             <div class="flex items-center h-16   pr-12">
-
-
-
                 <div class="pt-2 relative mx-auto text-gray-600">
                     <input
                         class="border-2 border-[#263562] bg-white h-10 px-20 pr-16 rounded-lg text-sm focus:outline-none"
@@ -339,12 +317,7 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </div>
-
 
                 <div class="w-60  p-2 bg-white rounded-xl transform  shadow-lg">
                     <!-- Imagen de album -->
@@ -403,7 +376,6 @@
                     </div>
                 </div>
 
-
                 <div class="w-60  p-2 bg-white rounded-xl transform  shadow-lg">
                     <!-- Imagen de album -->
                     <img class="h-30 object-cover rounded-xl"
@@ -459,9 +431,8 @@
                             </svg>
                         </div>
                     </div>
-
-
                 </div>
+
                 <div class="w-60  p-2 bg-white rounded-xl transform  shadow-lg">
                     <!-- Imagen de album -->
                     <img class="h-30 object-cover rounded-xl"
